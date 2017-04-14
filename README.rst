@@ -20,6 +20,23 @@ human-friendly syntax.
 
 Inspired by `Adam Wiggins' <https://github.com/adamwiggins>`_ article `"Rethinking Cron" <https://adam.herokuapp.com/past/2010/4/13/rethinking_cron/>`_ and the `clockwork <https://github.com/Rykian/clockwork>`_ Ruby module.
 
+Current status
+--------
+
+Currently it's in alpha status and there is no guarantee it will work
+
+Feature table, different from original `schedule https://github.com/likern/schedule`
+--------
++---------------------------+-----------------+-----------+
+|          Feature          |     Support     |  Version  |
++===========================+=================+===========+
+| additional after() syntax | Not implemented |     -     |
++---------------------------+-----------------+-----------+
+|  arrow datetime support   | Not implemented |     -     |
++---------------------------+-----------------+-----------+
+|  absolute dates support   | Not implemented |     -     |
++---------------------------+-----------------+-----------+
+
 Features
 --------
 - A simple to use API for scheduling jobs.

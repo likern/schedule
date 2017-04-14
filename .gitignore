@@ -42,3 +42,7 @@ venv
 
 .cache
 docs/_build
+
+# IDE files
+.idea/
+*.iml
